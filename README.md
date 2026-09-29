@@ -1,8 +1,6 @@
-# Movie Explorer
+# 📌Movie Explorer
 
 A React web app to search movies, browse trending films and view details, powered by the TMDb API.
-
-**Live demo:** _add your Vercel/Netlify link here after deploying_
 
 ## Features
 - Login screen (mock auth, see Notes) with protected routes
@@ -25,9 +23,6 @@ React (Create React App), React Router v6, Context API + useReducer, axios, Mate
 3. Create a free TMDb account and copy your **API Key (v3 auth)**.
 4. `cp .env.example .env` and set `REACT_APP_TMDB_API_KEY=<your key>`
 5. `npm start` (http://localhost:3000)
-
-## Build and deploy
-`npm run build`. On Vercel/Netlify import the repo, build command `npm run build`, output `build`, and add `REACT_APP_TMDB_API_KEY` under Environment Variables. For Netlify add `public/_redirects` containing `/* /index.html 200` so React Router deep links work.
 
 ## API usage (TMDb v3)
 | Purpose | Endpoint |
